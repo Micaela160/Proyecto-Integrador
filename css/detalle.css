@@ -35,3 +35,22 @@ a{
 .header-listas li{
     display: inline;
 }
+footer{
+    background-color: white;
+    height: 150px;  
+    color: black;
+   }
+  
+   footer .digital-logo{
+      max-width: 100px;
+   }
+  
+   footer .udesa-logo{
+      max-width: 100px;
+   }
+  
+   .listas-footer li {
+       display: inline;
+      
+   }
+  
