@@ -49,6 +49,7 @@ footer{
     background-color: white;
     height: 150px;  
     color: black;
+    background-color: #141414;
    }
   
    footer .digital-logo{
@@ -61,6 +62,9 @@ footer{
   
    .listas-footer li {
        display: inline;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 20px;
+       color: white;
       
    }
   
