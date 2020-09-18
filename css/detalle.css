@@ -1,0 +1,60 @@
+body{
+    background-image: url(https://us.123rf.com/450wm/neyro2008/neyro20081611/neyro2008161100072/67379974-espacio-con-el-fondo-de-estrellas-de-vectores-galaxy-y-los-planetas-en-el-espacio-cosmos-patr%C3%B3n-univers.jpg?ver=6);
+}
+.logoySign{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-self: center;
+    
+   
+    
+}
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+a{
+    color: white;
+}
+
+.header-listas{
+    
+    display: inline;
+    display: flex;
+    justify-content: space-around;
+    background-color: #141414;
+
+    
+   
+}
+
+.header-listas li{
+    display: inline;
+}
+footer{
+    background-color: white;
+    height: 150px;  
+    color: black;
+    background-color: #141414;
+   }
+  
+   footer .digital-logo{
+      max-width: 100px;
+   }
+  
+   footer .udesa-logo{
+      max-width: 100px;
+   }
+  
+   .listas-footer li {
+       display: inline;
+       font-family: Arial, Helvetica, sans-serif;
+     font-size: 20px;
+     color: white;
+      
+   }
+  

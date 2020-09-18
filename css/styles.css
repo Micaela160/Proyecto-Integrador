@@ -1,5 +1,117 @@
 body{
     background-image: url(https://us.123rf.com/450wm/neyro2008/neyro20081611/neyro2008161100072/67379974-espacio-con-el-fondo-de-estrellas-de-vectores-galaxy-y-los-planetas-en-el-espacio-cosmos-patr%C3%B3n-univers.jpg?ver=6);
 }
+.logoySign{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-self: center;
+    
+   
+    
+}
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+a{
+    color: white;
+}
+
+.header-listas{
+    
+    display: inline;
+    display: flex;
+    justify-content: space-around;
+    background-color: #141414;
+
+    
+   
+}
+
+.header-listas li{
+    display: inline;
+}
+.slider {
+    width: 100%;
+    height: -50px;
+	margin: 0%;
+   
+    background-color: black;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+    width: 400%;
+
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+    width: 100%;
+    height: 400px;
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+.listas-categorias li {
+    color: white;
+    display: inline;
+}
+
+.bloques-categorias {
+    max-width: 100px;
+ }
+
+ .bloques-categorias img {
+    max-width: 100px;
+ }
+
+ footer{
+  background-color: white;
+  height: 150px;  
+  color: black;
+  background-color: #141414;
+ }
+
+ footer .digital-logo{
+    max-width: 100px;
+ }
+
+ footer .udesa-logo{
+    max-width: 100px;
+ }
+
+ .listas-footer li {
+     display: inline;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 20px;
+     color: white;
+     
 
 
+ }
+
+    
+ }
