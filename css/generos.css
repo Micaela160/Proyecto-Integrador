@@ -63,11 +63,12 @@ footer{
       max-width: 100px;
    }
   
-   .listas-footer li {
-       display: inline;
-       font-family: Arial, Helvetica, sans-serif;
-       font-size: 20px;
-       color: white;
-      
-   }
+   .listas-footer  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    list-style: none;
+   
   
