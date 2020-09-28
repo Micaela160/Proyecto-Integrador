@@ -50,11 +50,11 @@ a{
     flex-direction: column;
 }
 
+
 footer{
-    background-color: white;
     height: 150px;  
-    color: black;
-    background-color: #141414;
+    color: whitesmoke;
+    font-family: 'Noto Sans', sans-serif;
    }
   
    footer .digital-logo{
@@ -66,11 +66,17 @@ footer{
    }
   
    .listas-footer  {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    list-style: none;
-}
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 20px;
+       list-style: none;
+       
+   }
+  
+   h5{
+      font-family: 'Noto Sans', sans-serif;
+     }
+  
   
