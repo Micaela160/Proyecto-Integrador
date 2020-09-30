@@ -78,4 +78,8 @@ footer{
       font-family: 'Noto Sans', sans-serif;
      }
   
-  
+     div.sticky {
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+      }
