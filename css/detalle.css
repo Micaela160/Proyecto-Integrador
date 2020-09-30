@@ -30,7 +30,27 @@ a{
 .header-listas li{
     display: inline;
 }
+.img-elite{
+    width: ;
+    height: ;
+    padding: 5%;
+   
 
+}
+   p {
+    color: whitesmoke;
+    font-family: 'Noto Sans', sans-serif;
+   }
+.detalle-info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+    
+}
 
    footer{
     height: 150px;  
