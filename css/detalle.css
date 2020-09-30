@@ -50,6 +50,11 @@ a{
     justify-self: center;
     text-align: center;
     
+    
+}
+.detalle-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
 }
 
    footer{
@@ -58,13 +63,17 @@ a{
     font-family: 'Noto Sans', sans-serif;
    }
   
-   footer .digital-logo{
-      max-width: 100px;
-   }
-  
-   footer .udesa-logo{
-      max-width: 100px;
-   }
+   footer .logo-insta{
+    max-width: 100px;
+ }
+
+ footer .logo-fb{
+    max-width: 100px;
+ }
+ footer .logo-tw{
+     max-width: 100px;
+ }
+
   
    .listas-footer  {
        display: flex;
