@@ -1,5 +1,5 @@
 body{
-    background-color: #000000e6;
+    background-color:#000000e6;
     margin: 0%;
 }
 
@@ -15,6 +15,7 @@ body{
 header{
         font-size: 30px;
         font-family: 'Noto Sans', sans-serif; 
+        background-image: linear-gradient(to right, rgba(55, 23, 23, 0.133), rgb(225, 14, 14))
     } 
 
 a{
@@ -25,7 +26,11 @@ a{
 .header-listas{
     display: flex;
     justify-content: space-around;
-    background-color: #b50000;
+border-radius: 25px;
+  background:  #aba4a422;
+  padding: 20px;
+  width: 1240px;
+  height: 40px;
 }
 
 .header-listas li{
@@ -86,9 +91,14 @@ a{
  }
 
  footer{
-  height: 150px;  
-  color: whitesmoke;
-  font-family: 'Noto Sans', sans-serif;
+border-style: solid;
+border-top-color: #b50000;
+border-color: rgba(0, 0, 0, 0.249);
+border-width: thick;
+height: 150px;  
+color: whitesmoke;
+font-family: 'Noto Sans', sans-serif;
+padding: 10px;
  }
 
  footer .logo-insta{
@@ -100,6 +110,7 @@ a{
  }
  footer .logo-tw{
      max-width: 100px;
+
  }
 
  .listas-footer  {
@@ -122,20 +133,37 @@ a{
     grid-template-columns: repeat(4, 1fr);
     gap: 1%;
     padding: 0%;
-    margin-bottom: 3%
+    margin-bottom: 3%;
+    height: 600px;
+ 
+
+    
+
+}
+.container1 img{
+    height: auto;
+    
 
 }
 
-.titulopelicula {
-    color: white;
-    font-family: 'Noto Sans', sans-serif ;
-    text-align: center;
-
-}
+.pelis{
+ color: white;
+font-family: "Noto Sans", sans-serif;
+text-align: center;
+overflow: hidden;
+ }
 
 h2{
     color: white;
     font-family: 'Noto Sans', sans-serif ;
     text-align: left;
+   padding-left: 4%;
+   padding-bottom: 3%;
+   padding-top: 3%;
+
+}
+
+.accion{
+background-color: #00000017;
 
 }
