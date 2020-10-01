@@ -54,6 +54,11 @@ a{
     flex-direction: column;
 }
 
+.logoheadertop{
+    max-width: 70px;
+    padding-right: 60%;
+    padding-bottom: 60%;
+ }
 
 footer{
     border-style: solid;
@@ -66,17 +71,20 @@ font-family: 'Noto Sans', sans-serif;
 padding: 10px;
    }
   
-   footer .logo-insta{
-    max-width: 100px;
+ footer .logo-insta{
+    max-width: 95px;
+    padding-bottom: 15%;
  }
 
  footer .logo-fb{
-    max-width: 100px;
+    max-width: 80px;
+    padding-top: 6%;
  }
  footer .logo-tw{
-     max-width: 100px;
- }
+     max-width: 58px;
+     padding-top: 25%;
 
+ }
   
    .listas-footer  {
        display: flex;
@@ -90,6 +98,7 @@ padding: 10px;
   
    h5{
       font-family: 'Noto Sans', sans-serif;
+      padding-top: 10%;
      }
   
      div.sticky {
