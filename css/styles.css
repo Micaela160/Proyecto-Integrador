@@ -89,6 +89,12 @@ border-radius: 25px;
  .bloques-categorias img {
     max-width: 100px;
  }
+ 
+.logoheadertop{
+    max-width: 70px;
+    padding-right: 60%;
+    padding-bottom: 60%;
+ }
 
  footer{
 border-style: solid;
@@ -102,14 +108,17 @@ padding: 10px;
  }
 
  footer .logo-insta{
-    max-width: 100px;
+    max-width: 95px;
+    padding-bottom: 15%;
  }
 
  footer .logo-fb{
-    max-width: 100px;
+    max-width: 80px;
+    padding-top: 6%;
  }
  footer .logo-tw{
-     max-width: 100px;
+     max-width: 58px;
+     padding-top: 25%;
 
  }
 
@@ -126,22 +135,24 @@ padding: 10px;
 
  h5{
     font-family: 'Noto Sans', sans-serif;
+    padding-top: 10%;
    }
 
 .container1 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1%;
+    gap: 4%;
     padding: 0%;
     margin-bottom: 3%;
     height: 600px;
+   
  
 
     
 
 }
 .container1 img{
-    height: auto;
+    height: 200px;
     
 
 }
