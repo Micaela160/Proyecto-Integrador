@@ -27,35 +27,23 @@ a{
 }
 
 .header-listas{
-    
-    display: inline;
     display: flex;
     justify-content: space-around;
-    border-radius: 25px;
+border-radius: 25px;
   background:  #aba4a422;
   padding: 20px;
   width: 1240px;
   height: 40px;
-    
-   
+  padding-left: 5%;
 }
 
 .header-listas li{
     display: inline;
 }
-.generos nav{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    justify-content: space-between;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    flex-direction: column;
-}
+
 
 .logoheadertop{
-    max-width: 70px;
+    max-width: 62px;
     padding-right: 60%;
     padding-bottom: 60%;
  }
@@ -101,8 +89,92 @@ padding: 10px;
       padding-top: 10%;
      }
   
-     div.sticky {
-        position: -webkit-sticky; /* Safari */
-        position: sticky;
-        top: 0;
+     .container1 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 4%;
+        padding: 0%;
+        margin-bottom: 3%;
+        height: 600px;
+       
+     
+    
+        
+    
+    }
+    .container1 img{
+        height: 200px;
+        
+    
+    }
+    
+    .pelis{
+     color: white;
+    font-family: "Noto Sans", sans-serif;
+    text-align: center;
+    overflow: hidden;
+     }
+    
+    h2{
+        color: white;
+        font-family: 'Noto Sans', sans-serif ;
+        text-align: left;
+       padding-left: 4%;
+       padding-bottom: 3%;
+       padding-top: 3%;
+    
+    }
+    
+    .accion{
+    background-color: #00000017;
+    }
+
+
+
+    .topnav {
+        overflow: hidden;
+     
+    }
+    
+    .topnav a {
+      float: left;
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    
+    
+    .topnav .search-container {
+      float: right;
+    }
+    
+    .topnav input[type=text] {
+      padding: 9px;
+      margin-top: 8px;
+      font-size: 17px;
+      border: none;
+    }
+    
+    .topnav .search-container button {
+      float: right;
+      padding: 6px 10px;
+      margin-top: 8px;
+      margin-right: 16px;
+      background: #ddd;
+      font-size: 17px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .topnav .search-container button:hover {
+      background: #ccc;
+    }
+    
+    @media screen and (max-width: 600px) {
+      .topnav .search-container {
+        float: none;
       }
