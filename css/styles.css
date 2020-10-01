@@ -117,8 +117,25 @@ a{
     font-family: 'Noto Sans', sans-serif;
    }
 
-   div.sticky {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-  }
+.container1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1%;
+    padding: 0%;
+    margin-bottom: 3%
+
+}
+
+.titulopelicula {
+    color: white;
+    font-family: 'Noto Sans', sans-serif ;
+    text-align: center;
+
+}
+
+h2{
+    color: white;
+    font-family: 'Noto Sans', sans-serif ;
+    text-align: left;
+
+}
