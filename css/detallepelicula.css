@@ -1,0 +1,39 @@
+body{
+    background-color: #000000e6;
+    margin: 0%;
+}
+
+.logoySign{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-self: center;
+}
+
+header{
+        font-size: 30px;
+        font-family: 'Noto Sans', sans-serif; 
+        background-image: linear-gradient(to right, rgba(55, 23, 23, 0.133), rgb(225, 14, 14))
+    } 
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+.header-listas{
+    display: flex;
+    justify-content: space-around;
+border-radius: 25px;
+  background:  #aba4a422;
+  padding: 20px;
+  width: 1240px;
+  height: 40px;
+  padding-left: 5%;
+}
+.header-listas li{
+    display: inline;
+}
