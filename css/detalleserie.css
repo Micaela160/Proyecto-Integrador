@@ -47,6 +47,11 @@ border-radius: 25px;
     font-family: 'Noto Sans', sans-serif;
    }
 
+   .genre p{
+   width: 800px;
+   padding-left: 7%;
+   }
+
 .detalle-info {
     display: flex;
     flex-wrap: wrap;
@@ -60,7 +65,7 @@ border-radius: 25px;
 }
 .detalle-info{
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr ;
 }
 
 .logoheadertop{
@@ -258,7 +263,9 @@ border-radius: 25px;
           font-size: 10px;
       }
      .img-elite{
-      height: 3%;
+      box-sizing: content-box;
+    
+     
         }
       
       .p{
