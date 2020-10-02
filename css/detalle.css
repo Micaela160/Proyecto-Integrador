@@ -153,16 +153,9 @@ border-radius: 25px;
     .topnav .search-container button:hover {
       background: #ccc;
     }
-    
-    @media screen and (max-width: 600px) {
-      .topnav .search-container {
-        float: none;
-      }
-  
+ 
   .playbotondetalle a{
     border-style: solid;
     border-color: rgba(0, 0, 0, 0.249);
     border-width: thick;
     }
-
-  
