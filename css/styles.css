@@ -86,7 +86,6 @@ border-radius: 25px;
     transition: .5s ease;
     backface-visibility: hidden;
   }
-
   .middle {
     transition: .5s ease;
     opacity: 0;
@@ -97,17 +96,25 @@ border-radius: 25px;
     -ms-transform: translate(-50%, -50%);
     text-align: center;
   }
-
+  
   .container:hover .image {
     opacity: 0.3;
   }
-
+  
   .container:hover .middle {
     opacity: 1;
   }
-
+  
   .text {
     background-color:#aba4a422;
+    color: white;
+    font-size: 30px;
+    padding: 16px 32px;
+    font-family: 'Noto Sans', sans-serif;
+  }
+
+
+.listas-categorias li {
     color: white;
     font-size: 40px;
     padding: 19px 35px;
